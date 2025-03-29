@@ -1,0 +1,7 @@
+{
+  "project_name": "PhotoStyleMatch",
+  "description": "A web application for matching photo styles using Adobe Lightroom APIs and LLM analysis",
+  "status": "requirements_gathering",
+  "last_updated": "2025-03-29",
+  "current_phase": "Requirements Gathering"
+}
