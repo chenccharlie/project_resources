@@ -1,0 +1,189 @@
+{
+  "last_updated": "2025-03-29",
+  "frontend": {
+    "components": {
+      "auth": {
+        "GoogleLogin": { "status": "pending", "completion": 0 },
+        "AppleLogin": { "status": "pending", "completion": 0 },
+        "EmailPasswordLogin": { "status": "pending", "completion": 0 },
+        "SignUp": { "status": "pending", "completion": 0 },
+        "PasswordReset": { "status": "pending", "completion": 0 }
+      },
+      "dashboard": {
+        "ProjectList": { "status": "pending", "completion": 0 },
+        "ProjectCard": { "status": "pending", "completion": 0 },
+        "ActivityFeed": { "status": "pending", "completion": 0 },
+        "CreditDisplay": { "status": "pending", "completion": 0 }
+      },
+      "upload": {
+        "DragDropUploader": { "status": "pending", "completion": 0 },
+        "PhotoPreview": { "status": "pending", "completion": 0 },
+        "UploadProgress": { "status": "pending", "completion": 0 },
+        "FileValidator": { "status": "pending", "completion": 0 }
+      },
+      "styleAnalysis": {
+        "StyleDisplay": { "status": "pending", "completion": 0 },
+        "StyleParameter": { "status": "pending", "completion": 0 },
+        "ChatInterface": { "status": "pending", "completion": 0 },
+        "StyleConfirmation": { "status": "pending", "completion": 0 }
+      },
+      "results": {
+        "BeforeAfterComparison": { "status": "pending", "completion": 0 },
+        "ResultsGallery": { "status": "pending", "completion": 0 },
+        "DownloadOptions": { "status": "pending", "completion": 0 },
+        "ShareOptions": { "status": "pending", "completion": 0 }
+      },
+      "payment": {
+        "CreditPackages": { "status": "pending", "completion": 0 },
+        "StripeCheckout": { "status": "pending", "completion": 0 },
+        "SubscriptionManager": { "status": "pending", "completion": 0 }
+      },
+      "layout": {
+        "Navigation": { "status": "pending", "completion": 0 },
+        "Footer": { "status": "pending", "completion": 0 },
+        "PageContainer": { "status": "pending", "completion": 0 },
+        "Modal": { "status": "pending", "completion": 0 },
+        "Toast": { "status": "pending", "completion": 0 }
+      }
+    },
+    "pages": {
+      "Landing": { "status": "pending", "completion": 0 },
+      "Login": { "status": "pending", "completion": 0 },
+      "SignUp": { "status": "pending", "completion": 0 },
+      "Dashboard": { "status": "pending", "completion": 0 },
+      "ProjectCreate": { "status": "pending", "completion": 0 },
+      "ProjectUpload": { "status": "pending", "completion": 0 },
+      "StyleAnalysis": { "status": "pending", "completion": 0 },
+      "Results": { "status": "pending", "completion": 0 },
+      "Credits": { "status": "pending", "completion": 0 },
+      "Account": { "status": "pending", "completion": 0 }
+    }
+  },
+  "backend": {
+    "api": {
+      "auth": {
+        "login": { "status": "pending", "completion": 0 },
+        "register": { "status": "pending", "completion": 0 },
+        "socialLogin": { "status": "pending", "completion": 0 },
+        "refreshToken": { "status": "pending", "completion": 0 },
+        "resetPassword": { "status": "pending", "completion": 0 }
+      },
+      "users": {
+        "getProfile": { "status": "pending", "completion": 0 },
+        "updateProfile": { "status": "pending", "completion": 0 },
+        "getCredits": { "status": "pending", "completion": 0 },
+        "purchaseCredits": { "status": "pending", "completion": 0 }
+      },
+      "projects": {
+        "create": { "status": "pending", "completion": 0 },
+        "list": { "status": "pending", "completion": 0 },
+        "get": { "status": "pending", "completion": 0 },
+        "update": { "status": "pending", "completion": 0 },
+        "delete": { "status": "pending", "completion": 0 }
+      },
+      "photos": {
+        "upload": { "status": "pending", "completion": 0 },
+        "list": { "status": "pending", "completion": 0 },
+        "delete": { "status": "pending", "completion": 0 }
+      },
+      "styles": {
+        "analyze": { "status": "pending", "completion": 0 },
+        "save": { "status": "pending", "completion": 0 },
+        "list": { "status": "pending", "completion": 0 }
+      },
+      "edits": {
+        "process": { "status": "pending", "completion": 0 },
+        "getStatus": { "status": "pending", "completion": 0 },
+        "getResults": { "status": "pending", "completion": 0 },
+        "download": { "status": "pending", "completion": 0 }
+      },
+      "chat": {
+        "send": { "status": "pending", "completion": 0 },
+        "getHistory": { "status": "pending", "completion": 0 }
+      },
+      "payment": {
+        "createCheckoutSession": { "status": "pending", "completion": 0 },
+        "handleWebhook": { "status": "pending", "completion": 0 },
+        "listPlans": { "status": "pending", "completion": 0 }
+      }
+    },
+    "services": {
+      "auth": {
+        "tokenGeneration": { "status": "pending", "completion": 0 },
+        "tokenValidation": { "status": "pending", "completion": 0 },
+        "passwordHashing": { "status": "pending", "completion": 0 },
+        "socialAuthVerification": { "status": "pending", "completion": 0 }
+      },
+      "llm": {
+        "styleAnalysis": { "status": "pending", "completion": 0 },
+        "parameterDetermination": { "status": "pending", "completion": 0 },
+        "chatResponse": { "status": "pending", "completion": 0 },
+        "providerAbstraction": { "status": "pending", "completion": 0 }
+      },
+      "lightroom": {
+        "authentication": { "status": "pending", "completion": 0 },
+        "photoUpload": { "status": "pending", "completion": 0 },
+        "applyEdits": { "status": "pending", "completion": 0 },
+        "retrieveEdited": { "status": "pending", "completion": 0 }
+      },
+      "storage": {
+        "uploadToLightroom": { "status": "pending", "completion": 0 },
+        "uploadToGCS": { "status": "pending", "completion": 0 },
+        "generateSignedUrls": { "status": "pending", "completion": 0 },
+        "cleanupTemporary": { "status": "pending", "completion": 0 }
+      },
+      "queue": {
+        "addJob": { "status": "pending", "completion": 0 },
+        "processJob": { "status": "pending", "completion": 0 },
+        "retryFailedJob": { "status": "pending", "completion": 0 },
+        "monitorQueue": { "status": "pending", "completion": 0 }
+      },
+      "payment": {
+        "stripeIntegration": { "status": "pending", "completion": 0 },
+        "creditManagement": { "status": "pending", "completion": 0 },
+        "subscriptionHandling": { "status": "pending", "completion": 0 }
+      }
+    },
+    "database": {
+      "models": {
+        "User": { "status": "pending", "completion": 0 },
+        "Project": { "status": "pending", "completion": 0 },
+        "Photo": { "status": "pending", "completion": 0 },
+        "Style": { "status": "pending", "completion": 0 },
+        "Edit": { "status": "pending", "completion": 0 },
+        "CreditTransaction": { "status": "pending", "completion": 0 },
+        "ChatMessage": { "status": "pending", "completion": 0 }
+      },
+      "migrations": {
+        "initialSchema": { "status": "pending", "completion": 0 }
+      }
+    }
+  },
+  "infrastructure": {
+    "docker": {
+      "frontendContainer": { "status": "pending", "completion": 0 },
+      "backendContainer": { "status": "pending", "completion": 0 },
+      "databaseContainer": { "status": "pending", "completion": 0 },
+      "redisContainer": { "status": "pending", "completion": 0 },
+      "composeDevelopment": { "status": "pending", "completion": 0 }
+    },
+    "kubernetes": {
+      "frontendDeployment": { "status": "pending", "completion": 0 },
+      "backendDeployment": { "status": "pending", "completion": 0 },
+      "databaseStatefulSet": { "status": "pending", "completion": 0 },
+      "redisStatefulSet": { "status": "pending", "completion": 0 },
+      "ingressConfiguration": { "status": "pending", "completion": 0 },
+      "secrets": { "status": "pending", "completion": 0 }
+    },
+    "cicd": {
+      "gitHubActions": { "status": "pending", "completion": 0 },
+      "testAutomation": { "status": "pending", "completion": 0 },
+      "deploymentPipeline": { "status": "pending", "completion": 0 }
+    },
+    "monitoring": {
+      "logging": { "status": "pending", "completion": 0 },
+      "metrics": { "status": "pending", "completion": 0 },
+      "alerting": { "status": "pending", "completion": 0 }
+    }
+  }
+}
